@@ -73,11 +73,19 @@ body * {
     align-items: center;
 }
 
+.hour,
+.min,
+.sec {
+    width: 50px;
+    display: inline-block;
+}
+
 .word span:nth-child(even) {
     line-height: 140%;
     font-size: 14px;
     font-weight: 400;
     margin: -15px;
+    margin-left: -10px;
 }
 
 .wrapper-info {
