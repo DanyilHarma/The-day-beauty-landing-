@@ -156,3 +156,103 @@ body * {
     object-fit: cover;
     object-position: right top;
 }
+
+/* *******************ASSORTIMENT*************************** */
+
+.container-fluid.ass,
+.col-4.ass {
+    padding: 0;
+}
+
+.assortiment-all {
+    max-width: 1678px;
+}
+
+.assortiment {
+    padding: 45px;
+    background: linear-gradient(45deg, #059669 0%, #10b981 100%);
+}
+
+.what {
+    font-family: "Playfair display", sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #ecfdf5;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    padding-bottom: 40px;
+    border-bottom: 2px dashed #fff;
+}
+
+.rp-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.rp {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 140%;
+    background-color: #047857;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.rp-wrap span {
+    color: #fff;
+}
+
+.wrapper-img-ass img {
+    width: 100%;
+}
+
+.select {
+    margin-top: 30px;
+    color: #fff;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.select svg {
+    margin-left: 0;
+    transition: margin-left .3s;
+}
+
+.select:hover svg {
+    margin-left: 5px;
+}
+
+.btn-more {
+    color: #fff;
+    background: linear-gradient(0deg, #059669 0%, #36dca5 100%);
+    margin: 25px auto;
+    text-align: center;
+    width: 100%;
+    max-width: 230px;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-more:hover {
+    background: linear-gradient(0deg, #36dca5 0%, #059669 100%);
+}
+
+/* *******************SVG-BLOCK*************************** */
+
+.svg-wrap {
+    margin-top: -100px;
+    margin-left: 100px;
+}
+
+.btn-svg {
+    cursor: pointer;
+}
+
+.title-svg {
+    font-family: "Playfair Display", sans-serif;
+    margin-bottom: 20px;
+}
