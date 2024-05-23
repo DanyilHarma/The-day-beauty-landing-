@@ -246,6 +246,7 @@ body * {
 .svg-wrap {
     margin-top: -100px;
     margin-left: 100px;
+    margin-bottom: -50px;
 }
 
 .btn-svg {
@@ -255,4 +256,113 @@ body * {
 .title-svg {
     font-family: "Playfair Display", sans-serif;
     margin-bottom: 20px;
+}
+
+/* *******************FOOTER*************************** */
+
+footer {
+    height: 200px;
+}
+
+.footer-wrap {
+    display: flex;
+    margin-left: 100px;
+    gap: 10%;
+    width: 100%;
+    max-width: 1590px;
+    margin-bottom: 100px;
+}
+
+.logo-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-footer img {
+    margin-bottom: 48px;
+    width: 85%;
+}
+
+.year {
+    color: #00b081;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 140%;
+}
+
+.list {
+    display: flex;
+    gap: 100px;
+}
+
+.list h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #064e3b;
+}
+
+.list ul {
+    margin-top: 15px;
+    list-style-type: none;
+    padding: 0;
+}
+
+.list ul li {
+    color: #068e6a;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+.list a svg {
+    margin-right: 10px;
+}
+
+.form {
+    width: 400px;
+}
+
+.form h6 {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 140%;
+    color: #064e3b;
+    margin-bottom: 45px;
+}
+
+.form input {
+    border: none;
+    border-bottom: 1px solid rgb(6, 142, 106);
+    width: 80%;
+}
+
+.form input::placeholder {
+    color: rgba(6, 142, 106, .2);
+}
+
+.input {
+    position: relative;
+}
+
+.form input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgb(6, 142, 106);
+}
+
+.svg-form {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    right: 80px;
+    top: 5px;
+    fill: rgb(6, 142, 106);
+    transition: fill .1s linear;
+    cursor: pointer;
 }
